@@ -2,7 +2,7 @@ name: Randomized Daily Commits (Beijing schedule)
 
 on:
   schedule:
-    - cron: '0 1,9,11 * * *'  # UTC 01:00,08:00,15:00 → 北京时间 09:00/16:00/23:00
+    - cron: '0 3,4,6 * * *'  # UTC 01:00,08:00,15:00 → 北京时间 09:00/16:00/23:00
   workflow_dispatch: {}
 
 permissions:
